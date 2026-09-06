@@ -1,0 +1,26 @@
+{
+ "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json",
+  "info" :
+  {
+    "name" : "imagepaddingrepro",
+    "summary" : "Reproduction: qx.html.Image#setPadding drops a clipped image's background-position offset",
+    "description" : "Minimal example for qooxdoo PR #10880 - giving a combined-image icon any padding repaints it as the glyph at offset [0, 0] of the strip.",
+    "homepage" : "https://github.com/qooxdoo/qooxdoo/pull/10880",
+    "license" : "MIT license",
+    "authors" : [],
+    "version" : "1.0.0"
+  },
+
+  "provides" :
+  {
+    "namespace"   : "imagepaddingrepro",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation"
+  },
+
+  "requires": {
+    "@qooxdoo/framework": "^7.9.3"
+  }
+}
